@@ -5,21 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Baby shower Laia</title>
 <style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
   .contenedor-centrado {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Utiliza todo el alto de la ventana */
+    height: 100vh;
   }
   .invitacion {
     box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
     border-radius: 8px;
     overflow: hidden;
-    transform: scale(1); /* Asegura que will-change tenga un valor inicial */
+    transform: scale(1);
   }
   .invitacion iframe {
-    width: 500px; /* Ancho del iframe */
-    height: 500px; /* Alto del iframe, ajusta según necesites */
+    width: 100%;
+    height: 100%;
+    border: none;
   }
 </style>
 </head>
@@ -27,8 +33,7 @@
 
 <div class="contenedor-centrado">
   <div class="invitacion">
-    <iframe loading="lazy" src="https://www.canva.com/design/DAGD6H-PnXs/xE3pUcObcPA5Cvqwhy-MSg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-    </iframe>
+    <iframe loading="lazy" src="https://www.canva.com/design/DAGD6H-PnXs/xE3pUcObcPA5Cvqwhy-MSg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
   </div>
   <a href="https://www.canva.com/design/DAGD6H-PnXs/xE3pUcObcPA5Cvqwhy-MSg/view?utm_content=DAGD6H-PnXs&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener"></a>
 </div>
